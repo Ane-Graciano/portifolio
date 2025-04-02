@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+}
+
+#introducao{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aquamarine;
+    padding-top: 3%;
+    padding-bottom: 3%
+}
+
+article > h1{
+    font-size: 30px;
+}
+
+#introducao > img{
+    width: 20%;
+}
