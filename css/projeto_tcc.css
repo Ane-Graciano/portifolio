@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+}
+
+
+nav{
+    background-color: #2c2a4a;
+    padding: 1.5%;
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+
+nav > a{
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+}
+
+nav{
+    background-color: #2c2a4a;
+    padding: 1.5%;
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+
+nav > a{
+    color: white;
+    text-decoration: none;
+}
+
+#projeto{
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+    /* background-color: #4f518c; */
+    /* color: white; */
+}
+
+#apresenta_proj{
+    padding: 3%;
+}
+
+#apresenta_proj > p{
+    text-align: justify;
+    width: 70%;
+}
+
+#proj{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#minha_parte{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#minha_parte > p{
+    text-align: justify;
+    width: 50%;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #2c2a4a ;
+    padding: 1.5%;
+}
+
+footer > a{
+    color: white;
+    text-decoration: none;
+}
