@@ -45,7 +45,7 @@ nav > a{
 }
 
 h1, h2, h3{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Montserrat;
 }
 
 #sec_curriculo{
@@ -70,6 +70,10 @@ h1, h2, h3{
     text-decoration: underline 3px #4f518c;
 }
 
+li{
+    font-family: Rubik;
+}
+
 .projetos{
     display: flex;
     background-color: #dabfff; 
@@ -84,7 +88,6 @@ h1, h2, h3{
     border: 3px solid #2c2a4a;
     border-radius: 13px;
     background-color: #ebe0ff;
-    background-image: linear-gradient(to bottom,#ebe0ff,#ece6f8);
 }
 
 .img_proj{

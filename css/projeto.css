@@ -18,6 +18,13 @@ nav > a{
     text-decoration: none;
 }
 
+#apresenta_proj > h1{
+    font-size: 40px;
+    font-family: Montserrat;
+    /* color: purple; */
+    text-shadow: 3px 3px 2px #dabfff;
+}
+
 #projeto{
     display: grid;
     grid-template-columns: 6fr 4fr;
@@ -38,7 +45,7 @@ nav > a{
 #proj{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding-right: 4%;
 }
 
@@ -46,12 +53,15 @@ nav > a{
     width: 100%;
     border-radius: 10px;
 }
-
+/* 
 #proj > section > a{
-    text-decoration: none;
-}
+    text-decoration: none;font-size: 18px;
+    border: 2px solid purple;
+    border-radius: 10px;
+    padding: 2%;
+} */
 
-a:hover{
+#proj > section > a:hover{
     color: #2c2a4a;
 }
 
@@ -75,7 +85,20 @@ footer{
     padding: 1.5%;
 }
 
-footer > a{
+footer{
+    display: flex;
+    gap: 3%;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top, #2c2a4a);
+    padding: 1%;
+}
+
+footer > a, footer>p{
     color: white;
     text-decoration: none;
+}
+
+a{
+    font-family: Rubik;
 }
