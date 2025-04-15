@@ -15,7 +15,9 @@
     <header>
         <nav>
             <a href="index.html">Home</a>
-            <a href="#">Sobre Mim</a>
+            <a href="index.html#apresenta">Sobre Mim</a>
+            <a href="index.html#sec_curriculo">Curriculo</a>
+            <a href="index.html#projetos">Projetos</a>
         </nav>
     </header>
     <main>
@@ -25,7 +27,7 @@
                 <h1>Painel Econômico SP – Comércio Exterior(API)</h1>
                 <p>O projeto possui gráficos que evidenciam as exportações e importações dos municípios do Estado de São Paulo, possuindo diversos filtros, como valor agregado, valor FOB, kg_líquido, carga, município. O projeto é voltado para análise e comparação entre os municípios e suas cargas, para auxiliar o specialista em logística a tomar a melhor decisão em seus projetos.
                 </p>
-                <h2 style="font-family: Montserrat;">Tecnologias</h2>
+                <h2 style="font-family: Montserrat;">Tecnologias do Projeto</h2>
                 <img src="https://img.shields.io/badge/Python-purple.svg?style=for-the-badge&logo=Python&logoColor=white"></img>
                 <img src="https://img.shields.io/badge/Flask-purple.svg?style=for-the-badge&logo=Flask&logoColor=white"></img>
                 <img src="https://img.shields.io/badge/HTML-purple.svg?style=for-the-badge&logo=HTML&logoColor=white"></img>
@@ -38,22 +40,33 @@
                     <img src="./imagens/protótipo-figma.gif" alt="img do api">
                 </section>
                 <section>
-                    <p>veja mais em:</p>
+                    <h3>Para ver o código:</h3>
                     <a href="https://github.com/arthur-oliver/API-Crows"><img src="https://img.shields.io/badge/GitHub-purple.svg?style=for-the-badge&logo=GitHub&logoColor=white"></img></a>
                 </section>
             </section>
         </section>
         <section id="minha_parte">
-            <h2>O que fiz:</h2>
-            <p>
-                Neste projeto realizei a estilização da página home, com css, seguindo os parametros do figma; fiz alguns dos gráfico , como, top 5 municípios por valor agregado, o histórico de uma carga mês a mês e o gráfico que mostra a média do valor agregado mês a mês, utilizando python no google colab;
-            </p>
+            <section id="img_logo">
+                <img src="./imagens/logo_api.jpeg" alt="logo do grupo de api" id="logo_api">
+            </section>
+            <section id="fiz">
+                <h2>O que fiz:</h2>
+                <p>
+                    Neste projeto realizei a estilização da página home, com css, seguindo os parametros do figma; fiz alguns dos gráfico , como, top 5 municípios por valor agregado, o histórico de uma carga mês a mês e o gráfico que mostra a média do valor agregado mês a mês, utilizando python no google colab;
+                </p>
+            </section>
         </section>
-        <section>
-            <img src="" alt="">
-        </section>
-        <section>
-            <img src="" alt="">
+        <section id="parte_soluc">
+            <section class="soluc">
+                <img src="./imagens/img_grafico1api.png" alt="tela home" class="img_proj">
+                <p><strong>Problema:</strong> dificuldade em visualizar os dados em gráficos sobre exportação de um determinado mês e saber a melhor opção para realizar um trabalho</p>
+                <p><strong>Solução:</strong> gerar um gráfico que mostre os munícipios que mais exportaram em um determinado mês, para ser fácil de visualizar a informação</p>
+            </section>
+            <section class="soluc">
+                <img src="./imagens/img_grafico2api.png" alt="tela home" class="img_proj">
+                <p><strong>Problema:</strong> dificuldade em visualizar os dados em gráficos sobre exportação de uma determinado carga durante o mês</p>
+                <p><strong>Solução:</strong> gerar um gráfico que mostre uma carga específica no mês, para ser fácil de visualizar a informação</p>
+            </section>
         </section>
     </main>
     <footer>

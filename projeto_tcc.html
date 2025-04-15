@@ -15,7 +15,9 @@
     <header>
         <nav>
             <a href="index.html">Home</a>
-            <a href="#">Sobre Mim</a>
+            <a href="index.html#apresenta">Sobre Mim</a>
+            <a href="index.html#sec_curriculo">Curriculo</a>
+            <a href="index.html#projetos">Projetos</a>
         </nav>
     </header>
     <main>
@@ -24,7 +26,7 @@
                 <!-- falando um pouco sobre o projeto -->
                 <h1>Site de cardápio de restaurante(TCC)</h1>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque totam maxime sequi sit, sed ea! Exercitationem optio voluptas doloremque corrupti ipsum, eveniet, dolores error qui ipsa ullam sunt iure. Itaque.
+                    Trata-se de um sistema para gerenciamento de restaurante, que permite cadastrar funcionários, adicionar e editar produtos no cardápio. Além disso, os clientes podem se cadastrar, realizar pedidos e consultar o histórico de compras.
                 </p>
                 <h2 style="font-family: Montserrat;">Tecnologias</h2>
                 <img src="https://img.shields.io/badge/php-purple.svg?style=for-the-badge&logo=php&logoColor=white"></img>
@@ -40,16 +42,27 @@
             </section>
         </section>
         <section id="minha_parte">
-            <h2>O que fiz:</h2>
-            <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta, provident sequi perferendis accusamus consequatur iste sint nemo, cupiditate deleniti perspiciatis quisquam! Exercitationem temporibus ipsam iste praesentium soluta aliquam reprehenderit a?
-            </p>
+            <section id="img_logo">
+                <img src="./imagens/logo_tcc.png" alt="logo do grupo de tcc" id="logo_tcc">
+            </section>
+            <section id="fiz">
+                <h2>O que fiz:</h2>
+                <p>
+                    Neste projeto, atuei principalmente na parte funcional do site. Desenvolvi os códigos para as telas de cadastro, login, verificação, inserção de dados no banco, além da lógica de funcionamento do cardápio, do carrinho de compras e da consulta de clientes. Também fui responsável pela estilização em CSS da tela de cadastro de cargos.
+                </p>
+            </section>
         </section>
-        <section>
-            <img src="" alt="">
-        </section>
-        <section>
-            <img src="" alt="">
+        <section id="parte_soluc_tcc">
+            <section class="soluc" style="background-color: #ebe0ff;">
+                <img src="./imagens/img_tela_tcc.png" alt="tela home" class="img_proj">
+                <p><strong>Problema:</strong> Ser algo personalizável para cada restaurante</p>
+                <p><strong>Solução:</strong> criar uma tela para cadastrar o cargo e depois colocar essas opções cadastradas no cadastro de funcionário</p>
+            </section>
+            <section class="soluc" style="background-color: #ebe0ff;">
+                <img src="./imagens/img_tela3_tcc.png" alt="tela home" class="img_proj">
+                <p><strong>Problema:</strong> adicionar quantidade variada do produto</p>
+                <p><strong>Solução:</strong>criar os botões para aumentar e diminuir a quantidade do produto, para depois poder adicionar ao carrinho</p>
+            </section>
         </section>
     </main>
     <footer>
