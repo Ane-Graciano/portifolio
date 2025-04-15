@@ -2,22 +2,24 @@ body{
     margin: 0;
 }
 
+
+/* <!-- arrumar fontes --> */
+
 #introducao{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color:#4f518c;
     background-image: linear-gradient(to bottom,#2c2a4a ,#4f518c, #dabfff);
     color: white;
-    padding-top: 11%;
-    padding-bottom: 11%;
+    padding-top: 12%;
+    padding-bottom: 12%;
 }
 
 #introducao > h1{
     font-size: 70px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    letter-spacing: 4px;
-    text-shadow: 3px 2px #907ad6;
+    font-family: Luckiest ;
+    letter-spacing: 3px;
+    text-shadow: 5px 4px #2c2a4a;
 }
 
 nav{
@@ -38,7 +40,7 @@ nav > a{
     flex-direction: column;
     align-items: center;
     text-align: justify;
-    padding: 10% 30%;
+    padding: 4% 30%;
     font-size: 20px;
 }
 
@@ -47,18 +49,19 @@ h1, h2, h3{
 }
 
 #sec_curriculo{
-    /* background-color: #dabfff; */
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     padding-bottom: 5%;
-    /* justify-content: space-evenly; */
+    flex-wrap: wrap;
 }
 
 .curriculo{
-    border: 2px solid;
+    border: 3px solid #2c2a4a;
     padding: 2%;
-    width: 20%;
-    /* background-color: pink; */
+    border-radius: 10px;
+    width: 26%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .curriculo > section{
@@ -69,16 +72,44 @@ h1, h2, h3{
 
 .projetos{
     display: flex;
-    /* deixar cor + clara */
     background-color: #dabfff; 
     justify-content: space-evenly;
+    padding: 6% 0;
 }
 
 .projeto{
-    padding: 4%;
     width: 30%;
-    border-radius: 10px;
     margin-top: 2%;
     margin-bottom: 2%;
-    border: 2px solid #4f518c;
+    border: 3px solid #2c2a4a;
+    border-radius: 13px;
+    background-color: #ebe0ff;
+    background-image: linear-gradient(to bottom,#ebe0ff,#ece6f8);
+}
+
+.img_proj{
+    width: 100%;
+    height: 70%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    /* border: 1px solid black; */
+}
+
+.projeto > h3{
+    padding: 2%;
+    padding-left: 5%;
+}
+
+footer{
+    display: flex;
+    gap: 3%;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top, #2c2a4a);
+    padding: 1%;
+}
+
+footer > a,p{
+    color: white;
+    text-decoration: none;
 }
