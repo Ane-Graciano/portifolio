@@ -83,15 +83,21 @@ li{
 
 .projeto{
     width: 30%;
+    height: auto;
     margin-top: 2%;
     margin-bottom: 2%;
     border: 3px solid #2c2a4a;
     border-radius: 13px;
     background-color: #ebe0ff;
+    padding-bottom: 2%;
+    transition: width 1s, height 1s;
+    color: black;
 }
 
 .projeto:hover{
     border: 3px solid #4f518c;
+    width: 33%;
+    height: auto;
 }
 
 .img_proj{
@@ -101,10 +107,14 @@ li{
     border-top-left-radius: 10px;
     /* border: 1px solid black; */
 }
+.projeto > a{
+    text-decoration: none;
+}
 
-.projeto > h3{
+.projeto > a > h3{
     padding: 2%;
     padding-left: 5%;
+    color: black;
 }
 
 footer{
