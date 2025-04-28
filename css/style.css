@@ -6,20 +6,33 @@ body{
 /* <!-- arrumar fontes --> */
 
 #introducao{
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: linear-gradient(to bottom,#2c2a4a ,#4f518c, #dabfff);
+    color: white;
+    padding-top: 12%;
+    padding-bottom: 12%; */
+    display: grid;
+    grid-template-columns: 4fr 6fr;
     background-image: linear-gradient(to bottom,#2c2a4a ,#4f518c, #dabfff);
     color: white;
     padding-top: 12%;
     padding-bottom: 12%;
 }
 
-#introducao > h1{
+.img_foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+#introducao > section > h1{
     font-size: 70px;
     font-family: Luckiest ;
     letter-spacing: 3px;
     text-shadow: 5px 4px #2c2a4a;
+    align-items: center;
 }
 
 nav{
@@ -34,6 +47,12 @@ nav > a{
     color: white;
     text-decoration: none;
 }
+
+/* .apresentacao{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    background-color: aquamarine;
+} */
 
 #apresenta{
     display: flex;
