@@ -67,27 +67,57 @@ h1, h2, h3{
     font-family: Montserrat;
 }
 
-#sec_curriculo{
-    display: flex;
-    justify-content: space-evenly;
+/* #sec_curriculo{
     padding-bottom: 5%;
     flex-wrap: wrap;
+    background-color: aquamarine;
+} */
+
+#curriculo1{
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+    /* padding-top: 5%;
+    padding-bottom: 5%; */
+    padding: 5%;
+    /* background-color: aqua; */
 }
 
-.curriculo{
-    border: 3px solid #2c2a4a;
+#curriculo2{
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+    padding: 8%;
+    /* padding-top: 5%;
+    padding-bottom: 5%; */
+    /* background-color: bisque; */
+}
+
+#titulo_curri1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-decoration: underline 3px #4f518c;
+}
+
+#titulo_curri2{
+    align-items: center;
+    justify-content: center;
+    /* display: flex; */
+    text-decoration: underline 3px #4f518c;
+}
+
+.texto_curri{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/* .curriculo{
+    background-color: azure;
     padding: 2%;
-    border-radius: 10px;
     width: 26%;
     margin-top: 2%;
     margin-bottom: 2%;
-}
+} */
 
-.curriculo > section{
-    display: flex;
-    gap: 5%;
-    text-decoration: underline 3px #4f518c;
-}
 
 li{
     font-family: Rubik;
