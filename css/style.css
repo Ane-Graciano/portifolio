@@ -22,9 +22,10 @@ body{
 }
 
 .img_foto{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    /* display: flex;
+    justify-content: center;*/
+    /* align-items: center;  */
+    width: 50%;
 } 
 
 #introducao > section > h1{
@@ -124,17 +125,15 @@ li{
 }
 
 .projetos{
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
     background-color: #dabfff; 
-    justify-content: space-evenly;
     padding: 6% 0;
 }
 
 .projeto{
-    width: 30%;
+    width: 70%;
     height: auto;
-    margin-top: 2%;
-    margin-bottom: 2%;
     border: 3px solid #2c2a4a;
     border-radius: 13px;
     background-color: #ebe0ff;
@@ -145,7 +144,7 @@ li{
 
 .projeto:hover{
     border: 3px solid #4f518c;
-    width: 33%;
+    width: 75%;
     height: auto;
 }
 
@@ -178,4 +177,25 @@ footer{
 footer > a,p{
     color: white;
     text-decoration: none;
+}
+
+
+
+@media only screen and (max-width: 600px){
+    .projeto{
+        grid-column: 1 / span 2;
+    }
+    #introducao > section > h1{
+        font-size: 30px;
+    }
+    #introducao > section > h2{
+        font-size:15px;
+    }
+    #apresenta{
+        font-size: 14px;
+        padding: 4% 20%;
+    }
+    h3{
+        font-size: 13px;
+    }
 }
