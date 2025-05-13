@@ -24,8 +24,8 @@
     </header>
     <main>
         <section id="introducao">
-            <section>
-                <img src="./imagens/foto.png" alt="" class="img_foto">
+            <section class="img_foto">
+                <img src="./imagens/foto.png" alt="" class="foto">
             </section>
             <section>
                 <h1>ANA GRACIANO</h1>
@@ -34,23 +34,15 @@
         </section>
         <!-- inicia parte do curriculo -->
         <section>
-            <!-- <section class="apresentacao"> -->
-                <article id="apresenta">
-                    <h3>Olá! Eu sou a Ana</h3>
-                    <p style="color: black; font-family: Rubik;">
-                        <!-- arrumar, colocar mais coisas sobre mim -->
-                        Me chamo Ana Elize, tenho 18 anos e no meu tempo livre gosto de sair com minha família e amigos e de cozinhar! Atualmente estou me aventurando no mundo da programação, me encantando cada por essa área e cursando Desenvolvimento de Software Multiplataforma na Fatec - SJC. Uma curiosidade sobre mim é que toco saxofone no meio dessas minhas tarefas!
-                    </p>
-                </article>
-                <!-- <section class="img_foto">
-                    <img src="./imagens/foto.png" alt="" style="width: 60%; height: 60%;">
-                </section> -->
-                
-            <!-- </section> -->
+            <article id="apresenta">
+                <h3>Olá! Eu sou a Ana</h3>
+                <p style="color: black; font-family: Rubik;">
+                    Me chamo Ana Elize, tenho 18 anos e no meu tempo livre gosto de sair com minha família e amigos e de cozinhar! Atualmente estou me aventurando no mundo da programação, me encantando cada por essa área e cursando Desenvolvimento de Software Multiplataforma na Fatec - SJC. Uma curiosidade sobre mim é que toco saxofone no meio dessas minhas tarefas!
+                </p>
+            </article>
             <section id="sec_curriculo">
-                <section id="curriculo1">
-                    <section id="titulo_curri1">
-                        <!-- <img src="./imagens/chapeu.png" alt="" style="width: 20%; height: 15%;"> -->
+                <section class="curriculo">
+                    <section class="titulo_curri">
                         <h3>Formação</h3>
                     </section>
                     <section class="texto_curri">
@@ -61,24 +53,32 @@
                         </ul>
                     </section>
                 </section>
-                <!-- <section class="curriculo">
-                    <section>
-                        <img src="./imagens/certificado.png" alt=""  style="width: 20%; height: 30%;">
-                        <h3>Certificações</h3>
+                <section class="curriculo">
+                    <section class="titulo_curri">
+                        <h3>Hard Skills</h3>
                     </section>
-                </section> -->
-                <section id="curriculo2">
+                    <section class="texto_curri">
+                        <img src="imagens/python.svg" alt="python" class="img_linguagem">
+                        <img src="imagens/php.png" alt="php" class="img_linguagem">
+                        <img src="imagens/html.svg" alt="html" class="img_linguagem">
+                        <img src="imagens/css.svg" alt="css" class="img_linguagem">
+                        <img src="imagens/sql.png" alt="sql" class="img_linguagem">
+                        <img src="imagens/flask.svg" alt="flask" class="img_linguagem">
+                        <img src="imagens/git.svg" alt="git" class="img_linguagem">
+                        <img src="imagens/mysql.svg" alt="mysql" class="img_linguagem">
+
+                    </section>
+                </section>
+                <section class="curriculo">
+                    <section class="titulo_curri">
+                        <h3>Soft Skills</h3>
+                    </section>
                     <section class="texto_curri">
                         <ul>
-                            <!-- colocar as softskils -->
-                            <li>Linguagens: Python, PHP, HTML, CSS, SQL</li>
-                            <li>Frameworks: Flask</li>
-                            <li>Ferramentas: Git, MySQL</li>
+                            <li>Proatividade</li>
+                            <li>Trabalho em equipe</li>
+                            <li>Ética</li>
                         </ul>
-                    </section>
-                    <section id="titulo_curri2">
-                        <!-- <img src="./imagens/criterio.png" alt="" style="width: 20%; height: 15%;"> -->
-                        <h3>Competências Técnicas</h3>
                     </section>
                 </section>
             </section>
@@ -88,8 +88,6 @@
             <section class="projeto">
                 <a href="projeto_api.html">
                     <img src="./imagens/protótipo-figma.gif" alt="imagem do projeto" class="img_proj">
-                    <!-- <iframe src="./imagens/protótipo-figma.gif" frameborder="0"></iframe> -->
-                
                     <h3>Site Painel Econômico SP – Comércio Exterior(API)</h3>
                     <strong style="color: black; padding-left: 5%; padding-bottom: 2%;">clique para saber mais</strong>
                 </a>
