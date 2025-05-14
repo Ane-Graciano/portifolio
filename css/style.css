@@ -2,17 +2,7 @@ body{
     margin: 0;
 }
 
-
-/* <!-- arrumar fontes --> */
-
 #introducao{
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-image: linear-gradient(to bottom,#2c2a4a ,#4f518c, #dabfff);
-    color: white;
-    padding-top: 12%;
-    padding-bottom: 12%; */
     display: grid;
     grid-template-columns: 4fr 6fr;
     background-image: linear-gradient(to bottom,#2c2a4a ,#4f518c, #dabfff);
@@ -45,18 +35,14 @@ nav{
     display: flex;
     justify-content: center;
     gap: 2%;
+    font-family: Rubik;
+    font-size: 18px;
 }
 
 nav > a{
     color: white;
     text-decoration: none;
 }
-
-/* .apresentacao{
-    display: grid;
-    grid-template-columns: 6fr 6fr;
-    background-color: aquamarine;
-} */
 
 #apresenta{
     display: flex;
@@ -112,13 +98,10 @@ li{
 }
 
 .projetos{
-    /* display: grid; */
-    /* grid-template-columns: auto auto; */
     display: flex;
     justify-content: space-evenly;
     background-color: #dabfff; 
     padding: 6% 0;
-    justify-content: space-evenly;
 }
 
 .projeto{
@@ -143,7 +126,6 @@ li{
     height: 70%;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
-    /* border: 1px solid black; */
 }
 .projeto > a{
     text-decoration: none;
@@ -162,6 +144,8 @@ footer{
     align-items: center;
     background-image: linear-gradient(to top, #2c2a4a);
     padding: 1%;
+    font-family: Rubik;
+    font-size: 18px;
 }
 
 footer > a,p{
@@ -178,6 +162,7 @@ footer > a,p{
     .projeto{
         width: 60%;
         height: auto;
+        margin: 2%;
     }
     #introducao{
         grid-template-columns: auto;
@@ -191,9 +176,8 @@ footer > a,p{
         justify-content: center;
     }
     #introducao > section > h2{
-        font-size:13px;
-        display: flex;
-        justify-content: center;
+        font-size:14px;
+        text-align: center;
     }
     #apresenta{
         font-size: 14px;
@@ -221,6 +205,12 @@ footer > a,p{
         width: 15%;
         height: auto;
     }
+    nav{
+        font-size: 15px;
+    }
+    footer{
+        font-size: 15px;
+    }
 }
 
 /* para tablet */
@@ -228,10 +218,12 @@ footer > a,p{
     .projetos{
         flex-direction: column;
         align-items: center;
+        padding: 6% 0;
     }
     .projeto{
         width: 60%;
         height: auto;
+        margin: 4%;
     }
     #introducao{
         grid-template-columns: auto;
@@ -246,8 +238,7 @@ footer > a,p{
     }
     #introducao > section > h2{
         font-size:18px;
-        display: flex;
-        justify-content: center;
+        text-align: center;
     }
     #apresenta{
         font-size: 17px;
@@ -264,5 +255,11 @@ footer > a,p{
     }
     .curriculo{
         width: 60%;
+    }
+    nav{
+        font-size: 17px;
+    }
+    footer{
+        font-size: 17px;
     }
 }

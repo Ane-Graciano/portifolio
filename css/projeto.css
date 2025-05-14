@@ -2,14 +2,14 @@ body{
     margin: 0;
 }
 
-/* <!-- arrumar fontes --> */
-
 nav{
     background-color: #2c2a4a;
     padding: 1.5%;
     display: flex;
     justify-content: center;
     gap: 2%;
+    font-family: Rubik;
+    font-size: 18px;
 }
 
 nav > a{
@@ -27,7 +27,6 @@ nav > a{
 #apresenta_proj > h1{
     font-size: 40px;
     font-family: Montserrat;
-    /* color: purple; */
     text-shadow: 3px 3px 2px #dabfff;
 }
 
@@ -61,7 +60,7 @@ nav > a{
 #minha_parte{
     display: grid;
     grid-template-columns: 4fr 6fr;
-    font-family: Montserrat; /*p/ o h2*/
+    font-family: Montserrat; 
 }
 
 #fiz{
@@ -139,18 +138,12 @@ nav > a{
 
 footer{
     display: flex;
-    justify-content: space-evenly;
-    background-color: #2c2a4a ;
-    padding: 1.5%;
-}
-
-footer{
-    display: flex;
     gap: 3%;
     justify-content: center;
     align-items: center;
     background-image: linear-gradient(to top, #2c2a4a);
-    padding: 1%;
+    font-family: Rubik;
+    font-size: 18px;
 }
 
 footer > a, footer>p{
@@ -162,3 +155,78 @@ a{
     font-family: Rubik;
 }
 
+@media (max-width: 480px){
+     nav{
+        font-size: 15px;
+    }
+    footer{
+        font-size: 15px;
+    }
+    #projeto{
+        grid-template-columns: auto;
+    }
+    #apresenta_proj > h1{
+        font-size: 25px;
+        text-align: center;
+    }#apresenta_proj > p{
+        font-size: 14px;
+        padding: 1% 15%;
+    }
+    #apresenta_proj > h2{
+        font-size: 20px;
+        text-align: center;
+    }
+    .img_linguagem{
+        width: 20%;
+        height: 6%;
+    }
+    #proj > section > img{
+        width: 80%;
+        border: 2px solid #2c2a4a;
+    }
+    #apresenta_proj{
+        align-items: center;
+        text-align: center;
+    }
+    #proj{
+        align-items: center;
+        text-align: center;
+    }
+    #minha_parte{
+        grid-template-columns: auto;
+    }
+    #logo_api{
+        width: 30%;
+        height: 55%;
+    }
+    
+    #logo_tcc{
+        width: 40%;
+        height: 60%;
+    }
+    #fiz{
+        padding: 0;
+    }
+    #fiz > h2{
+        font-size: 20px;
+        text-align: center;
+    }
+    #fiz > p{
+        padding: 1% 15%;
+    }
+    #parte_soluc{
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        padding: 10%;
+        padding-bottom:20%;
+    }#parte_soluc_tcc{
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        padding: 10%;
+        padding-bottom:20%;
+    }
+    .img_proj{
+        width: 100%;
+        height: 60%;
+    }
+}
