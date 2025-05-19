@@ -185,7 +185,6 @@ footer> a > img:hover{
     .projeto{
         width: 60%;
         height: 250px;
-        /* height: auto; */
         margin: 2%;
     }
     .img_proj{
@@ -221,10 +220,12 @@ footer> a > img:hover{
         width: 100%;
     }
     .curriculo{
+        display: flex;
+        flex-direction: column;
         width: 60%;
-        /* height: 250px;
+        height: 250px;
         align-items: center;
-        justify-content: center; */
+        justify-content: space-evenly; 
     }
     .titulo_curri{
         text-decoration: underline 2px #4f518c;
@@ -250,12 +251,11 @@ footer> a > img:hover{
     .projetos{
         flex-direction: column;
         align-items: center;
-        padding: 6% 0;
     }
     .projeto{
         width: 60%;
-        height: auto;
-        margin: 4%;
+        height: 400px;
+        margin: 2%;
     }
     #introducao{
         grid-template-columns: auto;
@@ -286,7 +286,12 @@ footer> a > img:hover{
         width: 100%;
     }
     .curriculo{
+        display: flex;
+        flex-direction: column;
         width: 60%;
+        height: 250px;
+        align-items: center;
+        justify-content: space-evenly; 
     }
     nav{
         font-size: 17px;

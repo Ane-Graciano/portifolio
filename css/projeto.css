@@ -44,7 +44,6 @@ nav > a{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding-right: 4%;
 }
 
 #proj > section > img{
