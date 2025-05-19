@@ -165,7 +165,7 @@ li{
     line-height: 25px;
 }
 
-a > img:hover{
+footer> a > img:hover{
     background-color: #dabfff1e;
     padding: 10%;
     border-radius: 50%;
